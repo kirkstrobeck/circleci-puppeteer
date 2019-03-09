@@ -21,7 +21,7 @@ jobs:
       - run: node index.js
 
       - store_artifacts:
-          path: /tmp/home
+          path: /home
 
 workflows:
   version: 2
