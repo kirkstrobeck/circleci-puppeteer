@@ -9,8 +9,6 @@ jobs:
     steps:
       - checkout
 
-      - run: ldd chrome | grep not
-
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
