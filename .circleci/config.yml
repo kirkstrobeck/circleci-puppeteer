@@ -21,7 +21,7 @@ jobs:
       - run: node index.js
 
       - store_artifacts:
-          path: /home/pptruser/project/tmp
+          path: /tmp/home
 
 workflows:
   version: 2
